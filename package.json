@@ -1,0 +1,19 @@
+{
+	"name": "pillowcase",
+	"main": "pillowcase.js",
+
+	"version": "v0.1dev",
+	"description": "pillowcase helps you get some REST",
+	"keywords": ["pillowcase","REST","api","helper"],
+
+	"engines": {"node": "~0.6.4"},
+	"dependencies": {
+	},
+	"devDependencies": {
+	},
+
+	"author": "Thomas Aylott <oblivious+git@subtlegradient.com> (http://github.com/subtleGradient/)",
+
+	"repository": {"type": "git", "url": "http://github.com/subtleGradient/pillowcase.git"},
+	"bugs": {"url": "http://github.com/subtleGradient/pillowcase/issues"}
+}
