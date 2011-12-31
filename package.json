@@ -14,6 +14,6 @@
 
 	"author": "Thomas Aylott <oblivious+git@subtlegradient.com> (http://github.com/subtleGradient/)",
 
-	"repository": {"type": "git", "url": "http://github.com/subtleGradient/pillowcase.git"},
-	"bugs": {"url": "http://github.com/subtleGradient/pillowcase/issues"}
+	"repository": {"type": "git", "url": "http://github.com/subtleGradient/node-pillowcase.git"},
+	"bugs": {"url": "http://github.com/subtleGradient/node-pillowcase/issues"}
 }
