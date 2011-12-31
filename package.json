@@ -2,7 +2,7 @@
 	"name": "pillowcase",
 	"main": "pillowcase.js",
 
-	"version": "v0.1dev",
+	"version": "v0.1.0dev",
 	"description": "pillowcase helps you get some REST",
 	"keywords": ["pillowcase","REST","api","helper"],
 
