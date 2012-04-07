@@ -36,7 +36,7 @@ pillowcase.cd = function(path){
 'GET DELETE HEAD'.split(' ').forEach(function(METHOD){
     var method = METHOD.toLowerCase()
     pillowcase[method] = function(key, callback){
-        if (arguments.length == 1) key = null, callback = arguments[0]
+        if (arguments.length == 1) callback = arguments[0], key = null
         
         var pillowcase = this
         if (key) pillowcase = this.cd(key)
@@ -49,8 +49,8 @@ pillowcase.cd = function(path){
 'POST'.split(' ').forEach(function(METHOD){
     var method = METHOD.toLowerCase()
     pillowcase[method] = function(key, data, callback){
-        if (arguments.length == 2) key = null, data = arguments[0], callback = arguments[1]
-        if (arguments.length == 1) key = null, data = null, callback = arguments[0]
+        if (arguments.length == 2) data = arguments[0], callback = arguments[1], key = null
+        if (arguments.length == 1) callback = arguments[0], data = null, key = null
         
         var pillowcase = this
         if (key) pillowcase = this.cd(key)
